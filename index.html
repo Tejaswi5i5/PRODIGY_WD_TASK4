@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Welcome to My Portfolio</h1>
+      <p>I’m a Web Developer with a passion for creating beautiful and functional websites.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="profile.jpg" alt="My Photo" class="profile-pic">
+        <div class="about-text">
+          <p>Hello! I’m a web developer with expertise in HTML, CSS, JavaScript, and various front-end and back-end technologies. I enjoy crafting web applications that solve real-world problems. I hold a degree in Computer Science and have worked on several professional projects.</p>
+          <ul>
+            <li><strong>Education:</strong> Bachelor’s in Computer Science</li>
+            <li><strong>Experience:</strong> 3 years as a full-stack web developer</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <div class="project">
+          <img src="online.webp" alt="Project 1">
+          <h3>Online Attendance Management</h3>
+          <p>The Online Attendance Management System is a web application designed to streamline the process of recording and tracking student or employee attendance. Built with HTML, CSS, JavaScript (React.js) for the front-end, and Node.js, Express.js, and MongoDB for the back-end, the system ensures real-time updates and accurate data handling. My role involved developing the user interface and implementing the attendance tracking logic with real-time database integration.</p>
+        </div>
+        <!-- Project 2 -->
+        <div class="project">
+          <img src="weather.jpg" alt="Project 2">
+          <h3>Weather report</h3>
+          <p>The Weather Report Project is a web application that provides real-time weather forecasts using data from external APIs. Developed with HTML, CSS, and JavaScript (Vue.js) for the front-end, and Node.js for handling API requests, it offers a responsive and interactive user experience. My role included designing the UI, integrating weather APIs, and implementing dynamic data updates based on user input.</p>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
